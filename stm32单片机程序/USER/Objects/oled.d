@@ -12,7 +12,7 @@
 .\objects\oled.o: ..\STM32F10x_FWLib\inc\stm32f10x_tim.h
 .\objects\oled.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
 .\objects\oled.o: ..\STM32F10x_FWLib\inc\misc.h
-.\objects\oled.o: ..\NET\EDP\common.h
+.\objects\oled.o: ..\HARDWARE\common.h
 .\objects\oled.o: ..\SYSTEM\delay\delay.h
 .\objects\oled.o: ..\SYSTEM\sys\sys.h
 .\objects\oled.o: ..\HARDWARE\oled\codetab.h

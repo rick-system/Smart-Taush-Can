@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\STM32F10x_FWLib\inc;..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\NET\device\inc;..\NET\EDP;..\NET\onenet\inc;..\HARDWARE\PWM;..\HARDWARE\jidianqi;..\HARDWARE\MP3;..\HARDWARE\SysTick;..\HARDWARE\YuYin;..\HARDWARE\oled;.\hardware</IncludePath>
+              <IncludePath>..\CORE;..\STM32F10x_FWLib\inc;..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HARDWARE\PWM;..\HARDWARE\jidianqi;..\HARDWARE\MP3;..\HARDWARE\SysTick;..\HARDWARE\YuYin;..\HARDWARE\oled;.\hardware;..\HARDWARE</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -438,6 +438,16 @@
               <FileName>asrpro_uart.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\hardware\asrpro_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>ESP8266.C</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\ESP8266.C</FilePath>
+            </File>
+            <File>
+              <FileName>HAL_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\HAL_usart.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -718,23 +728,6 @@
         </Group>
         <Group>
           <GroupName>NET</GroupName>
-          <Files>
-            <File>
-              <FileName>esp8266.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\NET\device\src\esp8266.c</FilePath>
-            </File>
-            <File>
-              <FileName>EdpKit.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\NET\EDP\EdpKit.c</FilePath>
-            </File>
-            <File>
-              <FileName>onenet.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\NET\onenet\src\onenet.c</FilePath>
-            </File>
-          </Files>
         </Group>
       </Groups>
     </Target>

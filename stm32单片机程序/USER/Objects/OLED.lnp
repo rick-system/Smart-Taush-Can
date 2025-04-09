@@ -8,6 +8,8 @@
 ".\objects\yuyin.o"
 ".\objects\oled.o"
 ".\objects\asrpro_uart.o"
+".\objects\esp8266.o"
+".\objects\hal_usart.o"
 ".\objects\misc.o"
 ".\objects\stm32f10x_adc.o"
 ".\objects\stm32f10x_bkp.o"
@@ -37,9 +39,6 @@
 ".\objects\stm32f10x_it.o"
 ".\objects\system_stm32f10x.o"
 ".\objects\main.o"
-".\objects\esp8266.o"
-".\objects\edpkit.o"
-".\objects\onenet.o"
 --strict --scatter ".\Objects\OLED.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

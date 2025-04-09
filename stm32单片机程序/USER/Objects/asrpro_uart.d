@@ -12,5 +12,4 @@
 .\objects\asrpro_uart.o: ..\STM32F10x_FWLib\inc\stm32f10x_tim.h
 .\objects\asrpro_uart.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
 .\objects\asrpro_uart.o: ..\STM32F10x_FWLib\inc\misc.h
-.\objects\asrpro_uart.o: ..\NET\EDP\common.h
 .\objects\asrpro_uart.o: E:\Program Files (x86)\keil5\ARM\ARMCC\Bin\..\include\stdio.h
